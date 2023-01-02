@@ -95,24 +95,24 @@ Console.WriteLine(result);
 // N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1"
 
 
-// Console.WriteLine();
+Console.WriteLine();
 
-// void numbers(int N)
-// {
+void numbers(int N)
+{
 
-//     if (N > 0)
-//     {
-//         Console.Write(N + ", ");
-//         N--;
-//         numbers(N);
-//     }
+    if (N > 0)
+    {
+        Console.Write(N + ", ");
+        N--;
+        numbers(N);
+    }
 
-// }
+}
 
-// Console.Write("Введите число N:   ");
-// int Num = Convert.ToInt32(Console.ReadLine());
-// Console.Write("N = " + Num + " --> ");
-// numbers(Num);
+Console.Write("Введите число N:   ");
+int Num = Convert.ToInt32(Console.ReadLine());
+Console.Write("N = " + Num + " --> ");
+numbers(Num);
 
 
 
@@ -164,6 +164,7 @@ int Akerman(int number, int argument)
 
 Console.WriteLine(Akerman(2, 3));
 Console.WriteLine(Akerman(3, 2));
+//Console.WriteLine(Akerman(2, 2));
 
 
 
