@@ -76,17 +76,18 @@
 
 
 //Задача 4.Напишите программу, которая на вход принимает два числа A и B, и возводит число А в целую степень B с помощью рекурсии.
-int FindSum(int a, int b)
-{
-    if (b != 0)
-    {
 
-        return FindSum(a, b - 1) * a;
-    }
-    else return 1;
-}
-int result = FindSum(2, 4);
-Console.WriteLine(result);
+// int FindSum(int a, int b)
+// {
+//     if (b != 0)
+//     {
+
+//         return FindSum(a, b - 1) * a;
+//     }
+//     else return 1;
+// }
+// int result = FindSum(2, 4);
+// Console.WriteLine(result);
 
 
 // Задача 64: Задайте значение N. Напишите программу, которая выведет все натуральные числа в промежутке от N до 1. Выполнить с помощью рекурсии.
